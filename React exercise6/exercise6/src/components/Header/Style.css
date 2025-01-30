@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.HeaderBox {
+    display: flex;
+    width: 1064px;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+   
+    
+}
+
+.Cart-Wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #231f42;
+    
+    
+}
+
+button {
+    color: red;
+    border-radius: 100%;
+    font-size: 10px;
+    margin: 10px;
+}
+
+
+.Cart {
+    color: red;
+}
+
+
+
+

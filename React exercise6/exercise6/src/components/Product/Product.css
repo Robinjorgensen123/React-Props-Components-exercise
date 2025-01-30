@@ -1,0 +1,49 @@
+body {
+    background-color: #231f42;
+}
+
+.Card-Container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    min-height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+    background-color: #231f42;
+    gap: 10px;
+   
+}
+
+.Card {
+    height: 350px;
+    width: 250px;
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Product-btn {
+    height: 40px;
+    width: 100px;
+    background-color: #37adab;
+    color: white;
+    border-radius: 2px;
+    
+}
+
+p,
+h3 {
+    font-size: 0.8rem;
+}
