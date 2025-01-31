@@ -1,19 +1,27 @@
-body {
-    background-color: #231f42;
-}
 
-.Card-Container {
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #231f42;
+    font-family: Arial, sans-serif; 
+  }
+  
+  
+  .Card-Container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); 
     min-height: 100vh;
     width: 100vw;
     padding: 1rem;
     background-color: #231f42;
-    gap: 10px;
-   
-}
-
-.Card {
+    gap: 20px; 
+    justify-items: center; 
+  }
+  
+  
+  .Card {
     height: 350px;
     width: 250px;
     border: 2px solid black;
@@ -25,25 +33,49 @@ body {
     box-sizing: border-box;
     text-align: center;
     overflow: hidden;
-    
-}
-
-.btn-wrapper{
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+/
+  .btn-wrapper {
     display: flex;
     justify-content: center;
-    
-}
-
-.Product-btn {
+  }
+  
+  
+  .Product-btn {
     height: 40px;
     width: 100px;
     background-color: #37adab;
     color: white;
     border-radius: 2px;
-    
-}
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
 
-p,
-h3 {
-    font-size: 0.8rem;
-}
+  
+  
+  h2 {
+    font-size: 1.2rem;
+    color: #231f42;
+    margin: 10px 0;
+  }
+  
+  h3 {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0 0 15px 0;
+    line-height: 1.4;
+  }
+  
+ 
+  

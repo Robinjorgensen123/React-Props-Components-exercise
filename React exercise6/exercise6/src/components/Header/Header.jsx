@@ -1,14 +1,15 @@
 import "../Header/Style.css"
 
-const Header = () => {
-    return <div className="HeaderBox">
-    <img src="./print.png" alt="Image" />
+const Header = ({Logo, Cart, CartButton}) => {
+    return (
+    <div className="HeaderBox">
+    <img src={Logo} alt="Logo" />
     <div className="Cart-Wrapper">
-        <p className="Cart">Cart 0</p>
-    <button>0</button>
+        <p className="Cart">{Cart}</p>
+    <button>{CartButton}</button>
     </div>
 </div>
-
+    )
 } 
 
 export default Header
