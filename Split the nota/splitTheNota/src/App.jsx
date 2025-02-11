@@ -9,7 +9,7 @@ import BeräknaKostnadPerPerson from './Components/BeräknaKostnadPerPerson/Ber�
 function App() {
 
 
-  const [summa, setSumma] = useState("")
+  const [summa, setSumma] = useState(0)
   const [vänner, setVänner] = useState(0)
   const [dricks, setDricks] = useState(0)
 

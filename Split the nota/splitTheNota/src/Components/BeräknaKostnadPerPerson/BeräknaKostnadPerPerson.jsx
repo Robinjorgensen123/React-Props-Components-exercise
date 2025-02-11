@@ -6,8 +6,11 @@ const BeräknaKostnadPerPerson = ({ summa, vänner, dricks }) => {
 
   // Beräknar kostnaden per person
   const beräknaKostnad = () => {
+    const summaNum = Number(summa) // ser till så att vi skickar ett nummer och inte en sträng
+    const dricksNum = Number(dricks) // ser till så att vi skickar ett nummer och inte en sträng
+
     if (vänner > 0) {
-      const totalSumma = summa + (summa * (dricks));
+      const totalSumma = summaNum + dricksNum;
       const perPerson = totalSumma / vänner;
       setKostnadPerPerson(perPerson); // Uppdaterar kostnaden per person
     } else {
